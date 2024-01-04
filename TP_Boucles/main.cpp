@@ -53,7 +53,7 @@ int main()
         l'utilisateur d'entrer un nombre indéfini de notes, et utilisez une valeur spéciale pour terminer la
         saisie (par exemple, une note négative)
 */
-
+/*
 int main()
 {
     cout << "\t \t III. Exercice 3: Calcul de la Moyenne" << endl << endl;
@@ -71,9 +71,45 @@ int main()
     moyenne /=vecteurNotes.size();
     cout << "La moyenne des " << vecteurNotes.size() << " notes saisies est : " << moyenne;
     return 0;
+}*/
+
+/*
+    IV. Exercice 4: Recherche d'Éléments
+        Écrivez un programme qui recherche un élément spécifique dans un tableau d'entiers.
+        L'utilisateur doit saisir l'élément à rechercher, et le programme doit parcourir le tableau pour trouver
+        et afficher l'index de la première occurrence de cet élément. Utilisez une boucle do-while pour
+        permettre à l'utilisateur de rechercher plusieurs éléments jusqu'à ce qu'il décide d'arrêter.
+
+*/
+
+int main()
+{
+    cout << "\t \t IV. Exercice 4: Recherche d'Éléments" << endl << endl;
+    int tableauxEntier[10] = {1,2,3,4,5,6,7,8,9,10};
+    int nombre, position=-1;
+    double moyenne= 0.0;
+    cout << "Veuillez entrer le nombre recherche : " ;
+    cin >> nombre;
+    while(nombre >0){
+        for(int i=0; i<sizeof(tableauxEntier)/sizeof(tableauxEntier[0]); i++ ){
+            if (tableauxEntier[i]== nombre){
+                    position =i;
+            }else{
+                position = -1;
+            }
+
+        if (position >=0 ){
+                cout << "Le nombre "<< nombre << " se trouve a la position: " << position << endl;
+            }else if(position ==-1){
+
+                cout << "Le nombre "<< nombre << " ne se trouve pas dans notre tableaux" << endl;
+            }
+        cout << endl << "Veuillez entrer le nombre recherche note\(entrer un nombre negatif pour arreter la recherche\) : " ;
+        cin >> nombre;
+
+    return 0;
+    }
 }
-
-
-
+}
 
 
