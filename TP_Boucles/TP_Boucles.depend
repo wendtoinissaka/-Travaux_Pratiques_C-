@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1704356178 source:c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_boucles\main.cpp
+	<iostream>
+	<string>
+	<vector>
+
