@@ -1,17 +1,12 @@
 #include <iostream>
-
-
 #include "GestionContact.h"
 #include "Contact.h"
 #include "GestionContact.cpp"
 #include "Contact.cpp"
-
+#include "string"
 
 int main() {
-
-
     GestionContacts gestionContacts;
-
     // Menu simple
     int choix;
     std::cout << "\n**********Create by WENDTOIN ISSAKA OUEDRAOGO on 05/01/2024 ************\n";
@@ -33,12 +28,16 @@ int main() {
             case 1: {
                 std::cout << "\n******** AJOUT DE NOUVEAU CONTACT  ********\n" << std::endl ;
                 std::string nom, numero, email;
-                std::cout << "Nom: ";
+                std::cout << "Nom: " << std::endl;
                 std::cin >> nom;
+//                std::getline(std::cin, nom);
+                std::getline(std::cin, nom);
                 std::cout << "Numero de telephone: ";
-                std::cin >> numero;
+//                std::cin >> numero;
+                std::getline(std::cin, numero);
                 std::cout << "Email: ";
-                std::cin >> email;
+//                std::cin >> email;
+                std::getline(std::cin, email);
 
                     Contact nouveauContact(nom, numero, email);
                 gestionContacts.ajouterContact(nouveauContact);
@@ -84,7 +83,6 @@ int main() {
                 break;
 
             }
-
 
             case 7:
                 std::cout << "Au revoir!\n";
