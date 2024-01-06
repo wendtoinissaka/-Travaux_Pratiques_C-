@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1704534843 source:c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\test_tp_gstion_contact\main.cpp
+	<iostream>
+	"GestionContact.h"
+	"Contact.h"
+	"GestionContact.cpp"
+	"Contact.cpp"
+
+1704534016 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\test_tp_gstion_contact\gestioncontact.h
+	"Contact.h"
+	<vector>
+
+1704534016 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\test_tp_gstion_contact\contact.h
+	<iostream>
+
+1704534436 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\test_tp_gstion_contact\gestioncontact.cpp
+	"GestionContact.h"
+	<algorithm>
+
+1704533807 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\test_tp_gstion_contact\contact.cpp
+	"Contact.h"
+

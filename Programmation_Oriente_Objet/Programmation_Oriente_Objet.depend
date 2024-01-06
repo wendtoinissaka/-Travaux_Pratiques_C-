@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1704458104 source:c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\programmation_oriente_objet\src\contact.cpp
+
+1704482522 source:c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\programmation_oriente_objet\main.cpp
+	<iostream>
+	"Contact.cpp"
+
+1704458081 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\programmation_oriente_objet\include\contact.h
+
+1704472265 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\programmation_oriente_objet\contact.h
+
+1704482476 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\programmation_oriente_objet\contact.cpp
+	<iostream>
+	<vector>
+	<string>
+	<iostream>
+	<vector>
+	<algorithm>
+
