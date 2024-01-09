@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1704814677 source:c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\4.gestionnaire_location_vehicules\main.cpp
+	"rental_manager.cpp"
+	"vehicle.cpp"
+	"rental_record.cpp"
+	<iostream>
+	<vector>
+	<ctime>
+	"rental_manager.h"
+	<iostream>
+
+1704814023 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\4.gestionnaire_location_vehicules\rental_manager.cpp
+	"rental_manager.h"
+	<iostream>
+
+1704813817 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\4.gestionnaire_location_vehicules\rental_manager.h
+	"vehicle.h"
+	"rental_record.h"
+	<vector>
+
+1704813817 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\4.gestionnaire_location_vehicules\vehicle.h
+	<string>
+
+1704813817 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\4.gestionnaire_location_vehicules\rental_record.h
+	"vehicle.h"
+	<ctime>
+
+1704813817 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\4.gestionnaire_location_vehicules\vehicle.cpp
+	"vehicle.h"
+	<iostream>
+
+1704813817 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\4.gestionnaire_location_vehicules\rental_record.cpp
+	"rental_record.h"
+	<iostream>
+

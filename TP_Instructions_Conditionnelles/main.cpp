@@ -73,8 +73,8 @@ int main()
         cout << "Le note est : E  " << endl;
     }
     return 0;
-}*/
-
+}
+*/
 
 /*
     4. Utilisation de switch :
@@ -117,7 +117,7 @@ int main()
         parmi eux en utilisant des instructions conditionnelles (if, else if, else).
 */
 
-/*
+
 int main() {
     double num1, num2, num3;
     cout << "Entrez le premier nombre : ";
@@ -138,7 +138,7 @@ int main() {
     }
 
     return 0;
-}*/
+}
 
 
 
@@ -240,7 +240,7 @@ int main() {
         recommander des produits similaires ou complémentaires.
 */
 
-
+/*
 
 int main() {
     string categorieAchatPrecedent;
@@ -261,7 +261,7 @@ int main() {
     return 0;
 }
 
-
+*/
 
 
 

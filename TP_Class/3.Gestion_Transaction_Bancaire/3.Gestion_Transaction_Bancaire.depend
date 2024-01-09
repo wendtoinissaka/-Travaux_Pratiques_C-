@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1704812666 source:c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\3.gestion_transaction_bancaire\main.cpp
+	"CompteBancaire.h"
+	"CompteBancaire.cpp"
+
+1704812266 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\3.gestion_transaction_bancaire\comptebancaire.h
+	<iostream>
+	<vector>
+
+1704812266 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\3.gestion_transaction_bancaire\comptebancaire.cpp
+	"CompteBancaire.h"
+	<string>
+

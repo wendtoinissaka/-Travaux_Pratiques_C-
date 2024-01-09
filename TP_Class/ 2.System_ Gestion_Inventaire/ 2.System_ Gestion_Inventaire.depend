@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1704809741 source:c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\ 2.system_ gestion_inventaire\main.cpp
+	<iostream>
+	"GestionnaireInventaire.cpp"
+	"Article.cpp"
+
+1704808212 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\ 2.system_ gestion_inventaire\gestionnaireinventaire.cpp
+	"GestionnaireInventaire.h"
+	<algorithm>
+
+1704807017 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\ 2.system_ gestion_inventaire\gestionnaireinventaire.h
+	<vector>
+	"Article.h"
+
+1704801222 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\ 2.system_ gestion_inventaire\article.h
+	<iostream>
+	<string>
+
+1704807341 c:\users\asus\documents\uv-bf2023(l2)\s3\programmation c++\travaux pratiques\tp_class\ 2.system_ gestion_inventaire\article.cpp
+	"Article.h"
+

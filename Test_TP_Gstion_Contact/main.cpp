@@ -49,6 +49,7 @@ int main() {
                 std::string nomASupprimer;
                 std::cout << "\nNom du contact a supprimer: ";
                 std::cin >> nomASupprimer;
+                std::getline(std::cin, nomASupprimer);
                 gestionContacts.supprimerContact(nomASupprimer);
                 std::cout << "Contact supprime avec succes!\n";
                 break;
@@ -62,6 +63,8 @@ int main() {
                 std::string contactARechercher;
                 std::cout << "\nNom du contact a rechercher: ";
                 std::cin >> contactARechercher;
+                std::getline(std::cin, contactARechercher);
+
                 gestionContacts.rechercherParNom(contactARechercher);
 
                 break;

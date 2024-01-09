@@ -23,7 +23,7 @@ int main()
     }
     cout << "La somme des entiers de 1 a " << nombre << " est " << somme << endl;
     return 0;
-}*/
+}/*
 
 
 /*
@@ -44,8 +44,8 @@ int main()
     }
 
     return 0;
-}*/
-
+}
+*/
 /*
     III. Exercice 3: Calcul de la Moyenne
         Élaborez un programme qui demande à l'utilisateur de saisir des notes. Le programme doit
@@ -71,8 +71,8 @@ int main()
     moyenne /=vecteurNotes.size();
     cout << "La moyenne des " << vecteurNotes.size() << " notes saisies est : " << moyenne;
     return 0;
-}*/
-
+}
+*/
 /*
     IV. Exercice 4: Recherche d'Éléments
         Écrivez un programme qui recherche un élément spécifique dans un tableau d'entiers.
@@ -169,8 +169,8 @@ int main() {
         Développez un programme en C++ qui calcule le factoriel d'un nombre saisi par l'utilisateur.
         Utilisez une boucle for pour effectuer le calcul.
 */
-
 /*
+
 int main() {
     int nombre;
     long factoriel = 1;
@@ -186,8 +186,8 @@ int main() {
     cout << "Le factoriel de " << nombre << " est : " << factoriel << endl;
 
     return 0;
-}*/
-
+}
+*/
 
 /*
     VI. Exercice 6: Gestion d'Employés
@@ -195,7 +195,7 @@ int main() {
         nombre d'employés, puis pour chaque employé, demandez son nom et son salaire. Ensuite, affichez
         le nom et le salaire de chaque employé. Utilisez une boucle for pour itérer à travers les employés.
 */
-
+/*
 using namespace std;
 
 int main() {
@@ -227,6 +227,6 @@ int main() {
 
 
 
-
+*/
 
 
